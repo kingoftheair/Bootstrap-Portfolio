@@ -1,0 +1,76 @@
+body {
+    background-image: url(../images/bodybackground.png);
+}
+.container, .container-fluid {
+    background-color: white;
+}
+
+
+header {
+    border-bottom: solid gray 1px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color:blue;
+    text-align: center;
+    width: 200px;
+    margin:0;
+}
+
+h2 {
+    color: blue;
+    margin-top: 15px;
+}
+
+h5{
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+    width: 280px;
+    position: relative;
+    right: 20px;
+}
+
+
+.content {
+    min-height: 456px;
+    margin: 15px auto 20px;
+}
+
+.no-margin{
+    max-width: 100%;
+}
+
+.bio-pic {
+    float:left;
+    margin-right:15px;
+    padding-top: 10px;
+}
+
+.bio {
+    padding-top: 10px; 
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.card {
+    margin: 15px;
+}
+
+.message {
+    width: 100%;
+}
+
+.text-muted {
+    background-color:blue;
+    border-top: solid gray 1px;
+    color: #fff;
+    width:100%;
+    text-align: center;
+    height: 60px;
+}
+
