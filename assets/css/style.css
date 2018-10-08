@@ -12,27 +12,30 @@ header {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #fff;
-    background-color:blue;
+    color:#fff;
+    background-color:lightblue;
     text-align: center;
     width: 200px;
     margin:0;
 }
 
 h2 {
-    color: blue;
+    color: orange;
     margin-top: 15px;
 }
 
 h5{
     color: #fff;
-    background-color: blue;
+    background-color:orange;
     text-align: center;
     width: 280px;
     position: relative;
     right: 20px;
 }
 
+.nav-link {
+    color:orange;
+}
 
 .content {
     min-height: 456px;
@@ -49,6 +52,7 @@ h5{
     padding-top: 10px;
 }
 
+
 .bio {
     padding-top: 10px; 
     font-size: 16px;
@@ -61,12 +65,20 @@ h5{
     margin: 15px;
 }
 
+.card-title {
+    background:lightblue;
+}
+
 .message {
     width: 100%;
 }
 
+.btn {
+    background:orange
+}
+
 .text-muted {
-    background-color:blue;
+    background-color:lightblue;
     border-top: solid gray 1px;
     color: #fff;
     width:100%;
@@ -74,3 +86,6 @@ h5{
     height: 60px;
 }
 
+.footer {
+    padding-top:60px;
+}
