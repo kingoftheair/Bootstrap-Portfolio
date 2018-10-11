@@ -37,6 +37,13 @@ h5{
     color:orange;
 }
 
+.nav-link:hover {
+    background:lightblue;
+}
+.nav-link:active {
+    font-size:30px;
+}
+
 .content {
     min-height: 456px;
     margin: 15px auto 20px;
@@ -74,7 +81,19 @@ h5{
 }
 
 .btn {
+    background:orange;
+}
+.btn1 {
     background:orange
+}
+
+.btn1:hover {
+    background:lightblue;
+}
+
+.btn1:active {
+    background:lightblue;
+    font-size:50px;
 }
 
 .text-muted {
@@ -87,5 +106,5 @@ h5{
 }
 
 .footer {
-    padding-top:60px;
+    padding-top:90px;
 }
